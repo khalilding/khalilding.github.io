@@ -1,0 +1,6 @@
+---
+layout: home
+title: "Blog"
+author_profile: false
+classes: wide
+---

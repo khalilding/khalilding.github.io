@@ -1,0 +1,46 @@
+title: Khalil Ding
+description: Product Manager · XR / AI / Robotics
+url: "https://khalilding.github.io"
+baseurl: ""
+theme: null
+remote_theme: "mmistakes/minimal-mistakes@4.26.0"
+
+locale: zh-CN
+timezone: Asia/Shanghai
+
+author:
+  name: Khalil Ding
+  avatar: /assets/img/avatar.png
+  bio: 产品经理 / XR·AI·机器人。关注语音助手、嵌入式与机器人定位感知。
+  location: Beijing / Remote
+  links:
+    - label: Email
+      icon: fas fa-envelope
+      url: mailto:your.email@example.com
+    - label: LinkedIn
+      icon: fab fa-linkedin
+      url: https://www.linkedin.com/in/yourprofile
+    - label: GitHub
+      icon: fab fa-github
+      url: https://github.com/khalilding
+    - label: 下载简历
+      icon: fas fa-file-pdf
+      url: /assets/resume/Your_Name_CV.pdf
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-include-cache
+  - jekyll-archives
+  - jekyll-paginate
+
+minimal_mistakes_skin: "default"
+paginate: 10
+paginate_path: "/blog/page:num/"
+logo: /assets/img/avatar.png

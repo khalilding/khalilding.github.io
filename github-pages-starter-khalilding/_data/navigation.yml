@@ -1,0 +1,13 @@
+main:
+  - title: "首页"
+    url: /
+  - title: "过往项目"
+    url: /projects/
+  - title: "Blog"
+    url: /blog/
+  - title: "其他"
+    children:
+      - title: "关于我"
+        url: /about/
+      - title: "联系我"
+        url: mailto:your.email@example.com
